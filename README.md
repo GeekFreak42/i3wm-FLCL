@@ -30,7 +30,7 @@
     
     The file `/urxvt/Xresources` is responsible for **urxvt** parameters, such as colors, fonts, and other settings.
 
-    Replace the file in `~/.Xresources`, then accept the changes `rxvt ~/.Xresources`.
+    Replace the file in `~/.Xresources`, then accept the changes `xrdb ~/.Xresources`.
 
     Open the new Window. Enjoy. 
 
