@@ -8,7 +8,7 @@ Xft.lcdfilter: lcddefault
 
 XTerm*background:        #222D31
 XTerm*foreground:        #d8d8d8
-XTerm*pointerColor:      #1ABB9B
+XTerm*pointerColor:      #1abb9b
 XTerm*faceName:          Fixed
 XTerm*faceSize:          11
 XTerm*reverseVideo:      on
@@ -71,7 +71,7 @@ URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
 !URxvt*background:                 black
-URxvt*foreground:                 grey
+URxvt*foreground:                 grey 
 URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines

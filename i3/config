@@ -59,9 +59,11 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec chromium
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec Telegram
+bindsym $mod+F5 exec code-oss  
 # bindsym $mod+F3 exec ranger
+
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
-bindsym $mod+F5 exec terminal -e 'mocp'
+#bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -420,4 +422,5 @@ mode "$mode_gaps_outer" {
 
 #custom function
 exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
-exec_always --no-startup-id feh --bg-scale /home/danila/configs_Git/Wallpaper.png
+exec_always --no-startup-id feh --bg-scale /home/username/i3wm-FLCL/wallpapers/Wallpaper.png
+
