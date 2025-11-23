@@ -14,7 +14,7 @@ XTerm*faceSize:          11
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
+*background:                      #000000
 *foreground:                      #d8d8d8
 *fading:                          8
 *fadeColor:                       black
@@ -66,7 +66,7 @@ URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
 
 URxvt.depth:                      32
 !URxvt.background:                 [50]#000000
-Urxvt.background:		  rgba:000/000/000/00
+Urxvt.background:		  rgba:0000/0000/0000/00
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
@@ -76,7 +76,7 @@ URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
-URxvt*transparent:              true
+URxvt*transparent:              false
 URxvt*shading:                  25
 
 ! Normal copy-paste keybindings without perls

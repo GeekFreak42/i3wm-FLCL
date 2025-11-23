@@ -30,17 +30,29 @@
     
     The file `/urxvt/Xresources` is responsible for **urxvt** parameters, such as colors, fonts, and other settings.
 
-    Replace the file in `~/.Xresources`, then accept the changes `xrdb ~/.Xresources`.
-
+    Replace the file in `~/.Xresources`, then commit the changes with `rxvt ~/.Xresources`.
+    
     Open the new Window. Enjoy. 
 
-3. **Wallpapers**
+3. **Picom**
+
+    The `/picom/picom.conf` file is responsible for effects such as transparency, shadows, window rotation and unfolding animations, and anti-aliasing for window managers.
+
+    Replace the file in `/etc/xdg/picom.conf` or in the default directory for your picom configuration, then make changes using the `picom --config /etc/xdg/picom.conf` command.
+
+    If you have a different picom configuration directory, find this line in the `~/.i3/config` file and replace the path with your own.:
+
+    `picom --config /etc/xdg/picom.conf`
+
+    After that, in any case, reboot your i3 using the key combination `$mod+Shift+ r`.
+
+4. **Wallpapers**
    
     For to change wallpapers uses program `feh`.  
 
     **In the `~/.i3/config` file, find the line:**
 
-     `/home/user_name/i3wm-FLCL/wallpapers/your_wallpaper`
+    `/home/user_name/i3wm-FLCL/wallpapers/your_wallpaper`
 
     Replace `username` with your own.
     

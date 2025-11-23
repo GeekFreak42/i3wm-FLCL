@@ -422,5 +422,6 @@ mode "$mode_gaps_outer" {
 
 #custom function
 exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
-exec_always --no-startup-id feh --bg-scale /home/username/i3wm-FLCL/wallpapers/Wallpaper.png
+exec_always --no-startup-id feh --bg-scale /home/username/i3wm-FLCL/wallpapers/Wallpaper2.png
+exec_always --no-startup-id picom --config /etc/xdg/picom.conf
 
